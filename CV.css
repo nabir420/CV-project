@@ -1,0 +1,142 @@
+body{
+    background-color: aquamarine;
+    margin: none;
+    padding: none;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+ 
+}
+.header{
+
+ }
+
+.image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+    
+}
+h1,h3{
+    margin: 3px;
+}
+.contact-info{
+    float: right;
+    pad: 20px;
+    margin-top: 20px;
+}
+.contact-info a{
+    padding: 10px;
+    text-decoration: none;
+    color: teal;
+}
+.contact-info a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid 4px black ;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+h2{
+    float: left;
+}
+.personal{
+    float: right;
+    margin-top: 19px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.common-hr{
+    border: solid 3px black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+}
+.work{
+    float: right;
+    margin-right: 140px;
+}
+.normal-heading{
+    font-size: 18px;
+    color: blueviolet;
+}
+.list-head{
+    float: right;
+    font-size: 20px;
+}
+ul{
+    float: right;
+    margin-right: 320px;
+}
+.key-skill{
+    float: left;
+}
+.key-skill-head{
+    float: right;
+    margin-right: 450px;
+    color: blue;
+}
+.key-skill-head-2{
+    float: right;
+    margin-right: 370px;
+    color: blue;
+}
+
+
+.key-skill-head-3{
+    float: right;
+    margin-right: 470px;
+    color: blue;
+
+}
+.table{
+    border: solid 2px black;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 80px;
+}
+th,td{
+    padding: 40px;
+}
+tr:nth-child(odd){
+    background-color: darkblue;
+}
+tr:nth-child(even){
+    background-color:blue;
+}
+tr:hover{
+    text-decoration: underline;
+    background-color: red;
+}
+.end{
+    width: 1000px;
+    height: 120px;
+    background-color: black ;
+    margin: 0 auto;
+}
+.end ul li{
+    list-style-type: none;
+    float: left;
+    pad: 10px;
+    margin: 10px;
+}
+.end2{
+    float: right;
+    margin-right: 370px;
+}
